@@ -18,10 +18,25 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.fetchCovidOverview(completionHandler: { [weak self] result in
+            guard let self = self else { return }
+            switch result {
+            case let .success(result):
+                self.configureStackView(koreaCovidOverview: result.korea)
+                
+            case let .failure(Error):
+                debugPrint("error \(Error)")
+            }
+        })
+    }
+    
+    func configureStackView(koreaCovidOverview: CovidOverview) {
+        self.totalCaseLabel.text = "\(koreaCovidOverview.totalCase) 명"
+        self.newCaseLabel.text = "\(koreaCovidOverview.newCase) 명"
     }
     
     func fetchCovidOverview(
-        completionHandler: (Result<CityCovidOverview, Error>) -> Void
+        completionHandler: @escaping (Result<CityCovidOverview, Error>) -> Void
     ) {
         let url = "https://api.corona-19.kr/korea/country/new/"
         let param = [
