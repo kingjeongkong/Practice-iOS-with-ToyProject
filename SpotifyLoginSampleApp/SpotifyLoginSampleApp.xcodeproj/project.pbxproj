@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21036CCA28AA8A2F006E2664 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21036CC928AA8A2F006E2664 /* MainViewController.swift */; };
 		2164B57E28A8D3AA00091724 /* EnterEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2164B57D28A8D3AA00091724 /* EnterEmailViewController.swift */; };
 		21ADD9F128A8BEB7005FD527 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ADD9F028A8BEB7005FD527 /* LoginViewController.swift */; };
 		21F1F16828A8BE1F00756EB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F1F16728A8BE1F00756EB4 /* AppDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21036CC928AA8A2F006E2664 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2164B57D28A8D3AA00091724 /* EnterEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterEmailViewController.swift; sourceTree = "<group>"; };
 		21ADD9F028A8BEB7005FD527 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		21F1F16428A8BE1F00756EB4 /* SpotifyLoginSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyLoginSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +68,7 @@
 				21F1F17228A8BE2000756EB4 /* LaunchScreen.storyboard */,
 				21F1F17528A8BE2000756EB4 /* Info.plist */,
 				2164B57D28A8D3AA00091724 /* EnterEmailViewController.swift */,
+				21036CC928AA8A2F006E2664 /* MainViewController.swift */,
 			);
 			path = SpotifyLoginSampleApp;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				21F1F16828A8BE1F00756EB4 /* AppDelegate.swift in Sources */,
 				2164B57E28A8D3AA00091724 /* EnterEmailViewController.swift in Sources */,
 				21F1F16A28A8BE1F00756EB4 /* SceneDelegate.swift in Sources */,
+				21036CCA28AA8A2F006E2664 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
