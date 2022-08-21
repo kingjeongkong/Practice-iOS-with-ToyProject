@@ -31,11 +31,11 @@ class LoginViewController: UIViewController {
         navigationController?.navigationBar.isHidden = true
         
         //Google Sign In
-        gid
+        GIDSignIn.sharedInstance().presentingViewController = self
     }
     
     @IBAction func googleLoginButtonTapped(_ sender: UIButton) {
-        //Firebase 인증
+        GIDSignIn.sharedInstance().signIn()
     }
     
     @IBAction func appleLoginButtonTapped(_ sender: UIButton) {
