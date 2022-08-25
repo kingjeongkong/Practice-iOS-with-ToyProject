@@ -78,6 +78,12 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cardImageView" destination="Awz-lv-WN9" id="ga9-7j-kZA"/>
+                <outlet property="cardNameLabel" destination="wDg-3O-Tss" id="nAG-hc-65i"/>
+                <outlet property="promotionLabel" destination="ceN-rJ-QJi" id="GYG-HS-YAY"/>
+                <outlet property="rankLabel" destination="KRg-e7-gEh" id="9Qp-y0-gyO"/>
+            </connections>
             <point key="canvasLocation" x="137.68115942028987" y="134.59821428571428"/>
         </tableViewCell>
     </objects>
