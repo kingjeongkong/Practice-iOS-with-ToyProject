@@ -45,7 +45,7 @@ class CardDetailViewController: UIViewController {
         conditionLabel.text = detail.condition
         benefitConditionLabel.text = detail.benefitCondition
         benefitDetailLabel.text = detail.benefitDetail
-        benefitDetailLabel.text = detail.benefitDate
+        benefitDateLabel.text = detail.benefitDate
     }
     
 }
